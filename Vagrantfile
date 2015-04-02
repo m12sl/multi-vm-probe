@@ -35,7 +35,7 @@ Vagrant.configure(2) do |config|
             vb.memory = 512
             vb.cpus = 1
         end
-        #config.vm.provision "shell", path: "vagrant/unicorn.sh"
+        config.vm.provision "shell", path: "vagrant/unicorn.sh"
 
     end
 

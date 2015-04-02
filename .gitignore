@@ -1,7 +1,15 @@
+# just workflow parts:
 .idea/
 .vagrant/
+
+# pythonic
 *.pyc
+
+# logs
 *.log
+
+# virtualenv
+unicorn-frontend/flaskbox
 
 
 
