@@ -10,6 +10,7 @@
 
 # virtualenv
 unicorn-frontend/flaskbox
+pony-backend/venv
 
 
 
