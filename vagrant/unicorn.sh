@@ -14,6 +14,9 @@ sudo apt-get install -y cmake
 sudo apt-get install -y python-dev python-setuptools python-pip
 sudo apt-get install -y cython
 
+# rabbitmq-server
+sudo apt-get install -y rabbitmq-server
+
 # venv
 sudo pip install virtualenv
 

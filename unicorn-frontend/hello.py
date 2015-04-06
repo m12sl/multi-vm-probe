@@ -1,7 +1,7 @@
 __author__ = 'm12sl'
 from flask import Flask
 from celery import Celery
-celery = Celery('tasks', backend='amqp', broker='amqp://guest@192.168.30.20//')
+celery = Celery('tasks', backend='amqp', broker='amqp://guest@192.168.30.10//')
 
 app = Flask(__name__)
 
